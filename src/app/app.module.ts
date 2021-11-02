@@ -6,8 +6,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardSearchAdviceComponent } from './card-search-advice/card-search-advice.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
+import { CardSearchAdviceComponent } from './components/card-search-advice/card-search-advice.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [AppComponent, ToolbarComponent, CardSearchAdviceComponent],
