@@ -1,7 +1,7 @@
 mat-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
   min-width: 300px;
@@ -10,10 +10,8 @@ mat-card {
   position: relative;
 
   button {
-    font-size: 1.3em;
-    position: absolute;
-    top: 15px;
-    width: 90%;
+    width: 100%;
+    font-size: 1.2em;
   }
 
   p {

@@ -14,6 +14,10 @@ export class CardSearchAdviceComponent implements AfterViewInit {
   adviceObj: Advice;
 
   ngAfterViewInit(): void {
+    this.getAdvice();
+  }
+
+  getAdvice() {
     this.service.getAdvices().subscribe((data) => {
       this.adviceObj = data;
       this.advice = this.adviceObj.slip.advice;

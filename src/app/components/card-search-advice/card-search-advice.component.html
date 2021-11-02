@@ -1,4 +1,6 @@
 <mat-card>
-  <button mat-flat-button color="accent">Ask for advice</button>
+  <button (click)="getAdvice()" mat-flat-button color="accent">
+    Ask for advice
+  </button>
   <p>{{ advice }}</p>
 </mat-card>
