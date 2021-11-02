@@ -9,5 +9,15 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    137deg,
+    rgba(28, 159, 147, 1) 0%,
+    rgba(88, 255, 186, 1) 48%,
+    rgba(178, 255, 174, 1) 100%
+  );
 }

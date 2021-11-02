@@ -1,6 +1,10 @@
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   .mat-toolbar.mat-primary {
-    background-color: #3f51b5;
+    background-color: #424242;
     height: 70px;
     display: flex;
     align-items: center;
@@ -24,7 +28,7 @@ footer {
   left: 0;
   right: 0;
   .mat-toolbar.mat-primary {
-    background-color: #3f51b5;
+    background-color: #424242;
     height: 70px;
     display: flex;
     align-items: center;
@@ -36,20 +40,3 @@ footer {
     }
   }
 }
-
-/*
-<header>
-  <mat-toolbar color="primary">
-    <div class="toolbar-title">
-      <span>Advice from a friend </span>
-    </div>
-    <i class="fab fa-instagram"></i>
-  </mat-toolbar>
-</header>
-
-<footer>
-  <mat-toolbar color="primary">
-    Created with <i class="fas fa-heart"></i> by Christian Santos</mat-toolbar
-  >
-</footer>
-*/

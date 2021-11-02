@@ -1,0 +1,26 @@
+mat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 300px;
+  position: relative;
+
+  button {
+    font-size: 1.3em;
+    position: absolute;
+    top: 15px;
+    width: 90%;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1.4em;
+  }
+}
