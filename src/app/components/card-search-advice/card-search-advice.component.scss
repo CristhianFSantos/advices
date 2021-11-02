@@ -8,6 +8,7 @@ mat-card {
   max-width: 300px;
   min-height: 300px;
   position: relative;
+  border-radius: 20px;
 
   button {
     width: 100%;
@@ -15,10 +16,15 @@ mat-card {
   }
 
   p {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 2em;
     text-align: center;
     font-weight: lighter;
     line-height: 1.4em;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+  mat-spinner {
+    margin-top: 60px;
+    opacity: 40%;
   }
 }
